@@ -19,10 +19,10 @@ const Navbar = () => {
             </div>
 
             <div className='absolute bottom-20 -ml-4 w-full flex text-center justify-evenly'>
-                <a className='hover:text-fuchsia-400 duration-300' href="https://github.com/anguslogan02"><AiOutlineGithub size={25} /></a>
-                <a className='hover:text-fuchsia-400 duration-300' href="https://discordapp.com/users/211862681731203073"><BsDiscord size={25} /></a>
-                <a className='hover:text-fuchsia-400 duration-300' href="https://www.linkedin.com/in/angus-logan-b83020226/"><AiFillLinkedin size={25} /></a>
-                <a className='hover:text-fuchsia-400 duration-300' href="mailto:me@anguslogan.dev"><MdAlternateEmail size={25} /></a>
+                <a className='hover:text-fuchsia-400 duration-300' href="https://github.com/anguslogan02" target="blank"><AiOutlineGithub size={25} /></a>
+                <a className='hover:text-fuchsia-400 duration-300' href="https://discordapp.com/users/211862681731203073" target="blank"><BsDiscord size={25} /></a>
+                <a className='hover:text-fuchsia-400 duration-300' href="https://www.linkedin.com/in/angus-logan-b83020226/" target="blank"><AiFillLinkedin size={25} /></a>
+                <a className='hover:text-fuchsia-400 duration-300' href="mailto:me@anguslogan.dev" target="blank"><MdAlternateEmail size={25} /></a>
             </div>
         </div>
     )
