@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Home = () => {
+const Technologies = () => {
     return (
         <h1>Technologies</h1>
     )
 }
 
-export default Home
+export default Technologies
