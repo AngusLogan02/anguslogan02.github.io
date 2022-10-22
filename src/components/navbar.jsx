@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai"
 import { BsDiscord } from "react-icons/bs"
 import { MdAlternateEmail } from "react-icons/md"
 
