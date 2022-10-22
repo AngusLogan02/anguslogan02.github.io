@@ -9,10 +9,9 @@ const Navbar = () => {
 
             <div className='mt-20'>
                 <ul>
-                    <li><button className='text-neutral-50 text-xl mb-4 hover:text-fuchsia-400'><Link to="/">Home</Link></button></li>
-                    <li><button className=' text-neutral-50 text-xl mb-4 hover:text-fuchsia-400'><Link to="/technologies">Technologies</Link></button></li>
                     <li><button className='text-neutral-50 text-xl mb-4 link-underline'><Link to="/">Home</Link></button></li>
                     <li><button className=' text-neutral-50 text-xl mb-4 link-underline'><Link to="/technologies">Technologies</Link></button></li>
+                    <li><button className=' text-neutral-50 text-xl mb-4 link-underline'><Link to="/contact">Contact Me</Link></button></li>
                 </ul>
             </div>
         </div>
