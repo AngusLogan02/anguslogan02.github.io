@@ -37,3 +37,7 @@ code {
 .link-underline:hover::before {
   transform: scaleX(1);
 }
+
+::selection {
+  background: #737373;
+}
