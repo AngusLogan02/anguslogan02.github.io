@@ -12,7 +12,7 @@ const Home = () => {
             </p>
             <p className='mt-4'>
                 Everything I have made so far is open source, and can be found on 
-                my <a href = "https://github.com/anguslogan02" className='link-underline font-bold' target="_blank">GitHub</a>.
+                my <a href = "https://github.com/anguslogan02" className='link-underline font-bold' target="_blank" rel="noreferrer">GitHub</a>.
                 I like the idea of FOSS, and strive to keep all my projects open and free.
             </p>
             <p className='mt-4'>
