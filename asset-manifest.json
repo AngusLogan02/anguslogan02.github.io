@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anguslogan02.github.io/static/css/main.73debac7.css",
-    "main.js": "/anguslogan02.github.io/static/js/main.0d030eec.js",
+    "main.css": "/anguslogan02.github.io/static/css/main.93212faa.css",
+    "main.js": "/anguslogan02.github.io/static/js/main.eedb4952.js",
     "static/js/787.1ed0c42c.chunk.js": "/anguslogan02.github.io/static/js/787.1ed0c42c.chunk.js",
     "index.html": "/anguslogan02.github.io/index.html",
-    "main.73debac7.css.map": "/anguslogan02.github.io/static/css/main.73debac7.css.map",
-    "main.0d030eec.js.map": "/anguslogan02.github.io/static/js/main.0d030eec.js.map",
+    "main.93212faa.css.map": "/anguslogan02.github.io/static/css/main.93212faa.css.map",
+    "main.eedb4952.js.map": "/anguslogan02.github.io/static/js/main.eedb4952.js.map",
     "787.1ed0c42c.chunk.js.map": "/anguslogan02.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73debac7.css",
-    "static/js/main.0d030eec.js"
+    "static/css/main.93212faa.css",
+    "static/js/main.eedb4952.js"
   ]
 }
