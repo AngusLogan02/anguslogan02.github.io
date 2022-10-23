@@ -34,9 +34,19 @@ const Navbar = (props) => {
         console.log("mobile")
         return (
             <Menu>
-                <Link to="/">About Me</Link>
-                <Link to="/technologies">Technologies</Link>
-                <Link to="/contact">Contact Me</Link>
+                <p className='text-xl font-bold'>Angus Logan</p>
+                <p className='font-light mt-2'>third year <span className='text-fuchsia-400'>Computer Science</span> student @ the University of Strathclyde</p>
+
+                <Link to="/"><span className='link-underline'>About Me</span></Link>
+                <Link to="/technologies"><span className='link-underline'>Technologies</span></Link>
+                <Link to="/contact"><span className='link-underline'>Contact Me</span></Link>
+
+                <div className='absolute bottom-20 -ml-7 w-full !flex text-center justify-evenly'>
+                    <a className='hover:text-fuchsia-400 duration-300' href="https://github.com/anguslogan02" target="_blank" rel="noreferrer"><AiOutlineGithub size={25} /></a>
+                    <a className='hover:text-fuchsia-400 duration-300' href="https://discordapp.com/users/211862681731203073" target="_blank" rel="noreferrer"><BsDiscord size={25} /></a>
+                    <a className='hover:text-fuchsia-400 duration-300' href="https://www.linkedin.com/in/angus-logan-b83020226/" target="_blank" rel="noreferrer"><AiFillLinkedin size={25} /></a>
+                    <a className='hover:text-fuchsia-400 duration-300' href="mailto:me@anguslogan.dev" target="_blank" rel="noreferrer"><MdAlternateEmail size={25} /></a>
+                </div>
             </Menu>
         )
     }
