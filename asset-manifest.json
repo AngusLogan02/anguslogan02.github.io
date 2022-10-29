@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anguslogan02.github.io/static/css/main.4d120e4f.css",
-    "main.js": "/anguslogan02.github.io/static/js/main.eedb4952.js",
-    "static/js/787.1ed0c42c.chunk.js": "/anguslogan02.github.io/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/anguslogan02.github.io/index.html",
-    "main.4d120e4f.css.map": "/anguslogan02.github.io/static/css/main.4d120e4f.css.map",
-    "main.eedb4952.js.map": "/anguslogan02.github.io/static/js/main.eedb4952.js.map",
-    "787.1ed0c42c.chunk.js.map": "/anguslogan02.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/anguslogan.dev/static/css/main.6d49ebfc.css",
+    "main.js": "/anguslogan.dev/static/js/main.203d7f26.js",
+    "static/js/787.1ed0c42c.chunk.js": "/anguslogan.dev/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/anguslogan.dev/index.html",
+    "main.6d49ebfc.css.map": "/anguslogan.dev/static/css/main.6d49ebfc.css.map",
+    "main.203d7f26.js.map": "/anguslogan.dev/static/js/main.203d7f26.js.map",
+    "787.1ed0c42c.chunk.js.map": "/anguslogan.dev/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d120e4f.css",
-    "static/js/main.eedb4952.js"
+    "static/css/main.6d49ebfc.css",
+    "static/js/main.203d7f26.js"
   ]
 }
