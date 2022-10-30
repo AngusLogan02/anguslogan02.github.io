@@ -10,7 +10,7 @@ const Navbar = (props) => {
     if (screenType === "desktop") {
         console.log("desktop")
         return (
-            <div className='w-1/6 h-screen p-4 pt-20 fixed border-r-[1px] border-neutral-500 text-right'>
+            <div className='w-1/6 h-screen p-4 pt-20 fixed border-r border-neutral-500 text-right'>
                 <a href='https://github.com/anguslogan02' target="_blank" rel="noreferrer" className='text-xl font-bold link-underline'>Angus Logan</a>
                 <p className='font-light mt-2'>third year <span className='text-fuchsia-400'>Computer Science</span> student @ the University of Strathclyde</p>
 

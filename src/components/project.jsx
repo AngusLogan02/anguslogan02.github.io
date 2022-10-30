@@ -19,9 +19,9 @@ const Project = (props) => {
     }
 
     return (
-        <div className='border-neutral-50 border-[1px] w-5/6 rounded-xl p-4'>
-            <h1 className='text-3xl text-fuchsia-400'><a href={ link } className='link-underline' target="_blank">{ name }</a></h1>
-            <h2 className='text-neutral-400'>{ desc }</h2>
+        <div className='border-neutral-50 border w-5/6 rounded-xl p-4'>
+            <h1 className='text-3xl text-fuchsia-400'><a href={ link } className='link-underline' target="_blank" rel="noreferrer">{ name }</a></h1>
+            <h2 className='italic'>{ desc }</h2>
 
             <hr className='my-2 bg-neutral-500 h-px' />
 

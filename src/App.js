@@ -15,7 +15,7 @@ function App() {
   
   if (isDesktop) {
     return (
-      <div className='bg-black text-neutral-50'>
+      <div className='bg-black text-neutral-50 overflow-auto'>
         <Helmet>
           <title>Angus Logan</title>
         </Helmet>
@@ -31,12 +31,12 @@ function App() {
     );
   } else {
     return (
-      <div className='bg-black text-neutral-50'>
+      <div className='bg-black text-neutral-50 overflow-auto'>
         <Helmet>
           <title>Angus Logan</title>
         </Helmet>
         <Navbar screenType={ "mobile" } />
-        <div className='h-screen p-20 pt-32'>
+        <div className='p-20 h-screen pt-32'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/technologies" element={<Technologies />} />
