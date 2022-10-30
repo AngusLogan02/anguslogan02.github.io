@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <p>
                 I'm a 20 year old Computer Science student with an interest in web applications, linux and Golang.
                 I've written web and command line applications in Golang, Python, Java and C that make use of
-                various <span className='link-underline font-bold'><Link to="/technologies">technologies</Link></span>.
+                various <button className='link-underline font-bold'><Link to="technologies" smooth={true} duration={500}>technologies</Link></button>.
             </p>
             <p className='mt-4'>
                 Everything I have made so far is open source, and can be found on 
@@ -18,9 +18,8 @@ const Home = () => {
             <p className='mt-4'>
                 When I'm not doing university work or working on a project of mine, I enjoy playing the guitar,
                 lifting, playing games, and tinkering with hardware and software. Most notably I've made a button box
-                from an <span className='font-bold link-underline'><Link to="/technologies">Arduino</Link></span> to use with a flight simulator game,
-                and a virtualisation server using <span className='font-bold link-underline'><Link to="/technologies">Proxmox</Link></span>, which I've
-                used to run game servers, a NAS and thin clients.
+                from an Arduino to use with a flight simulator game, and a virtualisation server using Proxmox, which I've
+                used to run game servers, a NAS and a fat server for thin clients.
             </p>
         </div>
     )
