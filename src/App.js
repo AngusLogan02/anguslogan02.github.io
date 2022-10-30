@@ -1,9 +1,9 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { useMediaQuery } from 'react-responsive'
 
 import Home from './pages/Home'
+import Projects from './pages/Projects'
 import Technologies from './pages/Technologies'
 import Contact from './pages/Contact'
 import Navbar from './components/navbar';
@@ -20,12 +20,11 @@ function App() {
           <title>Angus Logan</title>
         </Helmet>
         <Navbar screenType={ "desktop" } />
-        <div className='w-5/6 h-screen ml-auto p-20'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/technologies" element={<Technologies />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+        <div className='w-5/6 ml-auto p-20' id='about'>
+          <Home />
+          <Projects />
+          <Technologies />
+          <Contact />
         </div>
       </div>
     );
@@ -37,11 +36,6 @@ function App() {
         </Helmet>
         <Navbar screenType={ "mobile" } />
         <div className='p-20 h-screen pt-32'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/technologies" element={<Technologies />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
         </div>
       </div>
     );

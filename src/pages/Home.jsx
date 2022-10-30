@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
-        <div className='max-w-xl'>
-            <h1 className='text-3xl mb-4'>I am a</h1>
+        <div className='max-w-xl h-screen'>
+            <h1 className='text-3xl mb-4'>About Me</h1>
             <p>
-                20 year old Computer Science student with an interest in web applications, linux and Golang.
+                I'm a 20 year old Computer Science student with an interest in web applications, linux and Golang.
                 I've written web and command line applications in Golang, Python, Java and C that make use of
                 various <span className='link-underline font-bold'><Link to="/technologies">technologies</Link></span>.
             </p>

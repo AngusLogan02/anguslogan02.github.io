@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from "react-router-dom"
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai"
 import { BsDiscord } from "react-icons/bs"
 import { MdAlternateEmail } from "react-icons/md"
 import { slide as Menu } from 'react-burger-menu'
+import { Link } from 'react-scroll'
 
 const Navbar = (props) => {
     const screenType = props.screenType
@@ -16,9 +16,10 @@ const Navbar = (props) => {
 
                 <div className='mt-4'>
                     <ul>
-                        <li><button className='text-xl mb-4 link-underline'><Link to="/">About Me</Link></button></li>
-                        <li><button className='text-xl mb-4 link-underline'><Link to="/technologies">Technologies</Link></button></li>
-                        <li><button className='text-xl mb-4 link-underline'><Link to="/contact">Contact Me</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="about" smooth={true} duration={500}>About Me</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="projects" smooth={true} duration={500}>Projects</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="technologies" smooth={true} duration={500}>Technologies</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="contact" smooth={true} duration={500}>Contact Me</Link></button></li>
                     </ul>
                 </div>
 

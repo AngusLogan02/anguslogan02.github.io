@@ -1,14 +1,16 @@
 import React from 'react'
+import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai'
 
 const Project = (props) => {
     const name = props.name
     const link = props.link
     const desc = props.desc
     const tech = props.tech
+    const website = props.website
 
     const parseTech = (tech) => {
         return (
-            <ul className='ml-2'>
+            <ul className='ml-4'>
                 {
                     tech.map(name => {
                         return <li>- { name }</li>
@@ -19,13 +21,15 @@ const Project = (props) => {
     }
 
     return (
-        <div className='border-neutral-50 border w-5/6 rounded-xl p-4'>
-            <h1 className='text-3xl text-fuchsia-400'><a href={ link } className='link-underline' target="_blank" rel="noreferrer">{ name }</a></h1>
-            <h2 className='italic'>{ desc }</h2>
+        <div className='w-full h-1/4'>
+            <div className='flex'>
+                <p className='text-2xl text-fuchsia-400 font-semibold mr-8'>{ name }</p>
+                <a className='hover:text-fuchsia-400 duration-300 relative top-1' href={ link } target="_blank" rel="noreferrer"><AiOutlineGithub size={25} /></a>
+                { website && <a className='hover:text-fuchsia-400 duration-300 relative top-1 ml-4' href={ website } target="_blank" rel="noreferrer"><AiOutlineLink size={25} /></a> }
+            </div>
 
-            <hr className='my-2 bg-neutral-500 h-px' />
-
-            <p>Used: { parseTech(tech) }</p>
+            <span className='italic'> { desc } </span>
+            <p>Written using: <span className='font-mono'> { parseTech(tech) } </span></p>
         </div>
     )
 }

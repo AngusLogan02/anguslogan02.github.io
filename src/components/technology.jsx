@@ -7,7 +7,7 @@ const Technology = (props) => {
     const link = props.link
     
     return (
-        <div className='w-3/4 border-neutral-50 border rounded-xl grid grid-flow-col mb-4'>
+        <div className='w-3/4 grid grid-flow-col mb-4'>
             <div>
                 <p className='mx-4 mt-4 italic font-mono text-fuchsia-400'>name:</p>
                 <p className='mx-4 mb-4'> { name } </p>
