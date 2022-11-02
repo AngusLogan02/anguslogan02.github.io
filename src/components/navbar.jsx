@@ -38,9 +38,12 @@ const Navbar = (props) => {
                 <p className='text-xl font-bold'>Angus Logan</p>
                 <p className='font-light mt-2'>third year <span className='text-fuchsia-400'>Computer Science</span> student @ the University of Strathclyde</p>
 
-                <Link to="/"><span className='link-underline'>About Me</span></Link>
-                <Link to="/technologies"><span className='link-underline'>Technologies</span></Link>
-                <Link to="/contact"><span className='link-underline'>Contact Me</span></Link>
+                    <ul>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="about" smooth={true} duration={500}>About Me</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="projects" smooth={true} duration={500}>Projects</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="technologies" smooth={true} duration={500}>Technologies</Link></button></li>
+                        <li><button className='text-xl mb-4 link-underline'><Link to="contact" smooth={true} duration={500}>Contact Me</Link></button></li>
+                    </ul>
 
                 <div className='absolute bottom-20 -ml-7 w-full !flex text-center justify-evenly'>
                     <a className='hover:text-fuchsia-400 duration-300' href="https://github.com/anguslogan02" target="_blank" rel="noreferrer"><AiOutlineGithub size={25} /></a>

@@ -21,7 +21,7 @@ const Project = (props) => {
     }
 
     return (
-        <div className='w-full h-1/4'>
+        <div className='w-full lg:h-1/4 lg:my-0 my-8'>
             <div className='flex'>
                 <p className='text-2xl text-fuchsia-400 font-semibold mr-8'>{ name }</p>
                 <a className='hover:text-fuchsia-400 duration-300 relative top-1' href={ link } target="_blank" rel="noreferrer"><AiOutlineGithub size={25} /></a>

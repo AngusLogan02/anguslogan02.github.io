@@ -5,10 +5,10 @@ import Technology from '../components/technology'
 
 const Technologies = () => {
     return (
-            <div className='py-20 max-w-xl h-screen' id='technologies'>
+            <div className='lg:py-20 lg:max-w-xl lg:h-screen' id='technologies'>
                 <h1 className='text-3xl mb-4'>Technologies I've Used</h1>
                 <h2 className='text-2xl text-fuchsia-400 mb-4 font-semibold'>Languages</h2>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid lg:grid-cols-3 lg:gap-4 md:grid-cols-2 gap-2'>
                     <Technology name="Golang" icon=<SiGoland size={25} /> />
                     <Technology name="Python" icon=<SiPython size={25} /> />
                     <Technology name="Java" icon=<SiJava size={25} /> />
@@ -20,7 +20,7 @@ const Technologies = () => {
                     <Technology name="TypeScript" icon=<SiTypescript size={25}/> />
                 </div>
                 <h2 className='text-2xl text-fuchsia-400 my-4 font-semibold'>Other</h2>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid lg:grid-cols-3 lg:gap-4 md:grid-cols-2 gap-2'>
                     <Technology name="Git" icon=<SiGit size={25} /> />
                     <Technology name="Linux" icon=<SiLinux size={25} /> />
                     <Technology name="Socket.IO" icon=<SiSocketdotio size={25}/> />

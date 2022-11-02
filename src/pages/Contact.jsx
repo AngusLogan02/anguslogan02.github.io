@@ -3,7 +3,7 @@ import ContactMethod from '../components/contact'
 
 const Contact = () => {
     return (
-        <div className='h-screen py-20' id='contact'>
+        <div className='h-screen lg:py-20' id='contact'>
             <h1 className='text-3xl mb-4'>Contact Me</h1>
             <p className='mb-8'>It's probably easiest to reach me by email, however I'm usually online on Discord.</p>
 

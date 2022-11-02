@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import Technologies from './pages/Technologies'
 import Contact from './pages/Contact'
 import Navbar from './components/navbar';
+import HRule from './components/hrule';
 
 function App() {
   const isDesktop = useMediaQuery({
@@ -35,7 +36,14 @@ function App() {
           <title>Angus Logan</title>
         </Helmet>
         <Navbar screenType={ "mobile" } />
-        <div className='p-20 h-screen pt-32'>
+        <div className='p-20 pt-32'>
+          <Home mobile={true}/>
+          <HRule />
+          <Projects mobile={true}/>
+          <HRule />
+          <Technologies mobile={true}/>
+          <HRule />
+          <Contact mobile={true}/>
         </div>
       </div>
     );
